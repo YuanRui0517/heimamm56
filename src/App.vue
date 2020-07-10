@@ -1,7 +1,6 @@
 <template>
   <div class="app">
     <!-- 路由出口 -->
-    <div class="test">123</div>
     <router-view></router-view>
   </div>
 </template>
@@ -12,11 +11,16 @@ export default {}
 
 <style lang="less">
 /* less使用 style上面加一个lang=“less” */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body,
+html,
 .app {
-  .test {
-    width: 100px;
-    height: 100px;
-    background-color: #f00;
-  }
+  height: 100%;
+  width: 100%;
 }
 </style>
