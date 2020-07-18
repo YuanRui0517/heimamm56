@@ -84,8 +84,7 @@ const router = new VueRouter({
     import 'nprogress/nprogress.css'
     用包:NProgress.start() 开始   NProgress.done() 完成
     */
-
-// 路由前置守卫（离开前守卫）
+    // 路由前置守卫（离开前守卫）
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 router.beforeEach((to, from, next) => {
